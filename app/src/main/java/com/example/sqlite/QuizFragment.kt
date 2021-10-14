@@ -62,6 +62,7 @@ class QuizFragment() : Fragment() {
 
 
         questionList = sqLiteHelper.getAllQuestions()
+
         Log.e("questionListTag", "$questionList")
 
         textColorDefaultRb = binding.radioOption1.textColors
